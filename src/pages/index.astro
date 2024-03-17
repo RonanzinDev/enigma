@@ -1,0 +1,43 @@
+---
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- <meta name="generator" content={Astro.generator} /> -->
+		<title>Astro</title>
+		<style>
+			.container {
+				height: 500px;
+  position: relative;
+  /* border: 3px solid green; */
+			}
+			.vertical-center {
+				margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+			button {
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="vertical-center">
+				<button id="ligar"><p>Ligar</p></button>
+				<button id="desligar"><p>Desligar</p></button>
+			</div>
+			
+		</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/5.3.6/mqtt.min.js"
+	></script>
+	<script src="../scripts/client.js"></script>
+</html>
