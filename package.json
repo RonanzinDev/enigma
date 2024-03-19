@@ -24,5 +24,8 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.4.2",
     "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "latest"
   }
 }

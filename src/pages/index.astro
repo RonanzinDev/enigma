@@ -1,5 +1,5 @@
 ---
-
+import Led from "./Led"
 ---
 
 <html lang="en">
@@ -29,15 +29,13 @@
 		</style>
 	</head>
 	<body>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="vertical-center">
 				<button id="ligar"><p>Ligar</p></button>
 				<button id="desligar"><p>Desligar</p></button>
 			</div>
-			
-		</div>
+			 -->
+		<!-- </div> -->
+		<Led client:load/>
 	</body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/5.3.6/mqtt.min.js"
-	></script>
-	<script src="../scripts/client.js"></script>
 </html>
